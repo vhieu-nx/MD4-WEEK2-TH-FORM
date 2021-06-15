@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Welcome back!!!</h3>
+<form method="post" th:object="${user}">
+<th:block>
+    Name is:<span th:text="${user.name}"></span> <br>
+    Email is:<span th:text="${user.email}"></span> <br>
+    Age is:<span th:text="${user.age}"></span>
+</th:block>
+</form>
+</body>
+</html>

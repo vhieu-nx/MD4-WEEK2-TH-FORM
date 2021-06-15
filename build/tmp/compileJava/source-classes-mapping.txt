@@ -1,0 +1,12 @@
+controller/UserController.java
+ controller.UserController
+model/User.java
+ model.User
+config/AppConfiguration.java
+ config.AppConfiguration
+service/UserDAO.java
+ service.UserDAO
+model/Login.java
+ model.Login
+config/AppInit.java
+ config.AppInit
